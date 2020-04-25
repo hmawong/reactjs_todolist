@@ -139,7 +139,6 @@ class ToDoList extends React.Component {
       filter: e.target.name
     })
   }
-
   render() {
     const { new_task, tasks, filter } = this.state;
 
